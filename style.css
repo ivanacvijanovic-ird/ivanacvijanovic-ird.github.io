@@ -1,76 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: system-ui, Helvetica, sans-serif;
-  background: #f2f2f2;
-  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
 }
 
-header {
-  background: #ffffff;
-  color: #111;
-  padding: 25px 20px;
-  text-align: center;
-  border-bottom: 2px solid #ddd;
-}
-
-header p {
-  margin-top: 6px;
-  font-size: 1.6em;
-  color: #444;
-}
-
-main {
-  max-width: 800px;
-  margin: 30px auto;
-  background: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
-
-h2 {
-  margin-top: 1.5em;
-}
-
-a {
-  color: #4f46e5;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 30px;
-  color: #777;
-}
-
-.linea-wrapper {
+.home-page {
   width: 100%;
-  margin-top: 80px;
-  overflow: hidden;
+  max-width: 900px;
+  padding: 40px 20px 80px;
+  text-align: center;
+}
+
+/* Title */
+.home-page h1 {
+  margin-top: 40px;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+}
+
+/* Subtitle */
+.home-page p {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  margin: 10px 0 40px;
+}
+
+/* Image */
+.linea-wrapper {
+  margin: 20px 0 50px;
 }
 
 .linea {
   width: 100%;
-  max-width: 900px;
-  display: block;
-  margin: auto;
-  animation: calmPulse 3.5s ease-in-out infinite;
+  max-width: 700px;
+  height: auto;
 }
 
-@keyframes calmPulse {
-  0%   { opacity: 1; }
-  50%  { opacity: 0.85; }
-  100% { opacity: 1; }
+/* Navigation */
+.home-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
+.home-nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.home-nav a:hover {
+  color: #0077cc;
+  transform: translateY(-2px);
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  .home-page {
+    padding: 30px 15px 60px;
+  }
+
+  .home-nav {
+    gap: 20px;
+  }
+
+  .home-nav a {
+    font-size: 1rem;
+  }
+}
 
 
