@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Helvetica, sans-serif;
   background: #fff;
   color: #000;
   display: flex;
@@ -48,8 +48,8 @@ body {
 }
 
 .home-nav a {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 2rem;          /* bigger text */
+  font-family: Helvetica, Helvetica, sans-serif;
+  font-size: 1.5rem;          /* bigger text */
   margin: 0 45px;          /* more space between items */
   text-decoration: none;
   color: black;
@@ -79,7 +79,7 @@ body {
   max-width: 900px;
   margin: 60px auto;
   padding: 0 20px 80px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Helvetica, sans-serif;
 }
 
 .page h1 {
