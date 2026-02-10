@@ -43,24 +43,21 @@ body {
 
 /* Navigation */
 .home-nav {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
+  margin-top: 20px;          /* closer to the line */
+  text-align: center;
 }
 
 .home-nav a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2rem;          /* bigger text */
+  margin: 0 45px;          /* more space between items */
   text-decoration: none;
-  color: #000;
-  font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: 0.05em;
-  transition: color 0.25s ease, transform 0.25s ease;
+  color: black;
+  letter-spacing: 0.04em;
 }
 
 .home-nav a:hover {
-  color: #0077cc;
-  transform: translateY(-2px);
+  color: #cc0000;
 }
 
 /* Mobile tweaks */
