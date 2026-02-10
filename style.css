@@ -49,7 +49,7 @@ body {
 
 .home-nav a {
   font-family: Helvetica, Helvetica, sans-serif;
-  font-size: 1rem;          /* bigger text */
+  font-size: 1.5rem;          /* bigger text */
   margin: 0 45px;          /* more space between items */
   text-decoration: none;
   color: black;
