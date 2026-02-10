@@ -32,8 +32,10 @@ body {
 
 /* Image */
 .linea-wrapper {
-  margin: 20px 0 0px;
+  margin: 20px 0 0;
+  padding: 0;
 }
+
 
 .linea {
   width: 100%;
@@ -46,7 +48,7 @@ body {
 
 /* Navigation */
 .home-nav {
-  margin-top: -5px;    /* pulls links closer to the line */
+  margin-top: -10px;    /* pulls links closer to the line */
   text-align: center;
 }
 
@@ -57,6 +59,7 @@ body {
   text-decoration: none;
   color: black;
   letter-spacing: 0.04em;
+  line-height: 1;
 }
 
 .home-nav a:hover {
