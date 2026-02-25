@@ -82,6 +82,18 @@ body {
     padding: 30px 15px 60px;
   }
 
+.home-nav { 
+  gap: 20px; 
+}  
+
+.home-nav a { 
+  font-family: Helvetica, Helvetica, sans-serif; 
+  font-size: 2rem; 
+  margin: 0 55px; 
+  text-decoration: none; 
+  color: black; 
+  letter-spacing: 0.05em; } 
+}  
 
 .page {
   max-width: 900px;
