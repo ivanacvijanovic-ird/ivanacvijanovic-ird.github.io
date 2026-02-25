@@ -70,6 +70,7 @@ body {
   letter-spacing: 0.04em;
   line-height: 1;
   position: relative;
+   transition: opacity 0.2s ease;
 }
 
 .home-nav a:hover {
