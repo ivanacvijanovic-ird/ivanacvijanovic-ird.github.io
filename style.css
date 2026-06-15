@@ -29,10 +29,10 @@ body {
 
 /* Subtitle */
 .home-page p {
-  font-size: clamp(1.2rem, 2.5vw, 1.6rem);   /* larger and responsive */
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);   /* larger and responsive */
   margin: 10px 0 40px;
-  font-weight: 300;            /* lighter font */
-  line-height: 1.4;
+  font-weight: 350;            /* lighter font */
+  line-height: 1.3;
   color: #222;                 /* optional: slightly softer than black */
 }
 
